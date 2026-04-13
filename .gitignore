@@ -1,0 +1,67 @@
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual environments ─────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Jupyter Notebook ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ── Data files (keep sample CSVs but ignore large dumps) ─────────────
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+# Uncomment if you don't want to commit the dataset either:
+# *.csv
+
+# ── Streamlit ────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Trained model artifacts ──────────────────────────────────────────
+models/
+*.joblib
+*.sav
+
+# ── OS clutter ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs & editors ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Logs & temp ──────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
