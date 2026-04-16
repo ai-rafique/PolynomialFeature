@@ -2,7 +2,7 @@
 ## Polynomial Regression for Advertising Sales Prediction (Streamlit App)
 
 ### Status
-Not Attempted
+Attempted
 
 ---
 
